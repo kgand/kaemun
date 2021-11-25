@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Directory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='SiteStyle.css') }}">
+</head>
+<body>
+<div id="directory">
+    <div id="content">
+        <a href={{url_for('employees')}}>Employee List</a>
+        <br><a href={{url_for('timeReporting')}}>Time Reporting</a>
+        <br><a href={{url_for('accounting')}}>Accounting</a>
+        <br><a href={{url_for('sales')}}>Sales</a>
+        <br><a href={{url_for('engineering')}}>Engineering</a>
+        <br><a href={{url_for('customerService')}}>Customer Service</a>
+        <br><a href={{url_for('software')}}>Software Development</a>
+
+    </div>
+</div>
+</body>
+</html>

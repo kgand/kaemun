@@ -1,0 +1,24 @@
+Everybody gets access to Employee List and Time Reporting
+
+User 1 is the admin
+User 2 are accounting employees and have access to Employee List,
+Time Reporting, Sales, and Accounting
+User 3 are software developers and have access to Employee List, Time Reporting,
+Sales, Engineering,and Software Development
+User 4 are Sales and have access to Employee List, Time Reporting, and Sales
+User 5 are Engineering and have access to Employee List, Time Reporting, Engineering, and Software Development
+User 6 are Customer Service and have access to Employee List, Time Reporting, and Customer Service
+
+Users in DB already:
+user, password, level
+jbrown63, Bravens2021!, 1
+james1, 1!Abdfgh, 2
+terry56, Vb$345tyu, 3
+finnland234, L8*fghjbn, 4
+pats456, GronkSpike69!, 5
+summer298, Picklerick!23, 6
+
+The database is already made, if for some reason it isn't go to UserDatabase.py, uncomment the createDB() method and run
+the file then comment the line out again. The UI is simple, click login to login, register to register especially if the
+database is empty. If you register and login successfully you will be taken to the directory list and will allow you in
+if you have the proper clearance level.

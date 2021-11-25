@@ -1,0 +1,22 @@
+{% extends 'MainMenu.html' %}
+
+{% block header %}
+  <h1>{% block title %}Register{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="username">Username</label>
+    <input name="username" id="username" required>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+
+    <label for="level">Level</label>
+    <input name="level" id="level" required>
+
+    <button> <a href="/GeneratePassword/">Click Here to Gernerate a Random Strong Password</a></button>
+
+    <input type="submit" formnovalidate value="Register">
+  </form>
+{% endblock %}
