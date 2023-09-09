@@ -1,11 +1,3 @@
-"""
-Example SQLite Python Database
-==============================
-
-Experiment with the functions below to understand how the
-database is created, data is inserted, and data is retrieved
-
-"""
 import sqlite3
 from datetime import datetime
 import hashlib
@@ -33,12 +25,7 @@ def createDB():
         if conn is not None:
             conn.close()
 
-#
-# def getDate():
-#     """ Generate timestamp for data inserts """
-#     d = datetime.now()
-#     return d.strftime("%m/%d/%Y, %H:%M:%S")
-#
+
 
 def addUser():
     """ Example data insert into plants table """
@@ -82,7 +69,3 @@ def queryDB():
         if conn is not None:
             conn.close()
 
-
-#createDB()  # Run createDB function first time to create the database
-#addUser()  # Add a user to the database (calling multiple times will add additional plants)
-# query_db()  # View all data stored in the
